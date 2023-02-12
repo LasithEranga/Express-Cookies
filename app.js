@@ -26,6 +26,6 @@ mongoose
   .catch((err) => console.log(err));
 
 // routes
-app.get("/", (req, res) => res.send("this is version v5.8 released by shell script"));
+app.get("/", (req, res) => res.send("this is version v6.0 released by shell script"));
 app.get("/smoothies", requrieAuth, (req, res) => res.render("smoothies"));
 app.use(router);
