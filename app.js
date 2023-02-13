@@ -28,6 +28,6 @@ mongoose
 // routes
 //ghfvhjbvh
 
-app.get("/", (req, res) => res.send("this is version v6.3 released by shell script"));
+app.get("/", (req, res) => res.send("this is version v6.4 released by shell script"));
 app.get("/smoothies", requrieAuth, (req, res) => res.render("smoothies"));
 app.use(router);
